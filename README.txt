@@ -1,9 +1,9 @@
 ===========================================================================================================
-                                                    (Tarea 3 LP)
+                                                    (Tarea 1 Algoco)
 
 ===========================================================================================================
 
-Fecha: 02/05/2024
+Fecha: 10/09/2024
 Nombre: Sebastian Olea Schaufler
 Rol: 202273566-K 
 
@@ -37,26 +37,29 @@ Rol: 202273566-K
 -----------------------------------------------------------------------------------------------------------
 
 
-1. Tener un interpretador del lenguaje de programacion Java (Visual Code Studio de preferencia)
+1. Tener un interpretador del lenguaje de programacion C++ (Visual Code Studio de preferencia)
 
 2. Ejecutar el programa con makefile en el siguiente orden (teniendo el PATH en la carpeta donde se encuentra este mismo):
-        make
-        make run (para correr el programa)
-        make clean (solo en el caso en que ya no vaya a ejecutar mas el programa)
+        Para los arreglos:
+          - make -f Makefile (crear los .o)
+          - make -f Makefile run-bubble (corre BubbleSort)
+          - make -f Makefile run-merge (corre MergeSort)
+          - make -f Makefile run-quick (corre QuickSort)
+          - make -f Makefile run-sort (corre Sort Estandar)
+          - make -f Makefile run-gen (genera los archivos de matrices)
+          - make -f Makefile run-all (corre todos los Sort)
+          - make -f Makefile clean (borra los .o)
 
+        Para las Matrices:
+          - make all(crear los ejecutables)
+          - make run_tests (correr todos los Algoritmos)
 -----------------------------------------------------------------------------------------------------------
 
 [Consideraciones]
 
 -----------------------------------------------------------------------------------------------------------
 
-1. El mapa debido a unos problemas ingresando la interfaz se dejo como tipo arreglo de char, mas que arreglo de Visible,
-   Pero cumplio la misma funcion.
-
-2. A veces cuando se mata un enemigo estando al lado de la terminal tiende a pasar que el jugador no puede comprar aun asi estando al lado,
-   asi que solo muevelo a una direccion y despues regresalo a la posicion anterior para que funcione bien.
-
-3. Cuando se pide las estadisticas, las armas saldran raras pero funciona muy bien cuando se tiene que atacar o volver a comprar algo.
+1. No printea la matriz ni el arreglo resultante pero si da los tiempos
 
 4. Los comentarios de los getters y setters los puse todo en uno debido a que podria ser muy tedioso hacerlos y leerlos uno por uno.
 
