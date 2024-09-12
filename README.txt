@@ -65,4 +65,4 @@ Rol: 202273566-K
 
 3. Cada carpeta tiene un Makefile propio para poder ejecutar los algoritmos, y por problemas desconocidos el make de los arreglos solo funciona de la forma escrita en las instrucciones.
 
-4. Si se ve que en las matriz optimizada y de Strassen salen 5 valores de tiempo es lo mas probable algo del codigo que no pude solucionar a tiempo pero no afecta demasiado ya que se calcula el promedio de esos 5 resultados
+4. Si se ve que en las matriz optimizada y de Strassen salen 5 valores de tiempo es lo mas probable algo del codigo que no pude solucionar a tiempo pero no afecta demasiado ya que solo basta con calcular el promedio de esos 5 resultados
