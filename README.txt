@@ -60,3 +60,9 @@ Rol: 202273566-K
 -----------------------------------------------------------------------------------------------------------
 
 1. No printea la matriz ni el arreglo resultante pero si da los tiempos
+
+2. Los archivos de prueba (DataSets) estan dentro de las carpetas con los algoritmos correspondientes.
+
+3. Cada carpeta tiene un Makefile propio para poder ejecutar los algoritmos, y por problemas desconocidos el make de los arreglos solo funciona de la forma escrita en las instrucciones.
+
+4. Si se ve que en las matriz optimizada y de Strassen salen 5 valores de tiempo es lo mas probable algo del codigo que no pude solucionar a tiempo pero no afecta demasiado ya que se calcula el promedio de esos 5 resultados
