@@ -60,9 +60,3 @@ Rol: 202273566-K
 -----------------------------------------------------------------------------------------------------------
 
 1. No printea la matriz ni el arreglo resultante pero si da los tiempos
-
-4. Los comentarios de los getters y setters los puse todo en uno debido a que podria ser muy tedioso hacerlos y leerlos uno por uno.
-
-5. En la mayoria de los inputs si ingresas algo que no sea un numero tirara error :,c.
-
-6. Me hubiera gustado hacer mas cosas pero por problemas de tiempo no las hice :c.
